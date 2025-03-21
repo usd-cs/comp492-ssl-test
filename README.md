@@ -29,7 +29,7 @@ ssl-test-web-1     ssl-test-web           "python3 app.py"         web       35 
 After the application starts, navigate to `https://GROUP.dedyn.io:8080` in your web browser, which should display a webpage
 that reads, "Hello SECURE World!".
 
-Going to http://GROUP.dedyn.io:8000 should redirect you to the HTTPS version on port 8080.
+Going to `http://GROUP.dedyn.io:8000` should redirect you to the HTTPS version on port 8080.
 
 
 Stop and remove the containers as follows.
